@@ -25,6 +25,12 @@ body {
   }
 }
 
+@media (min-width: 1400px) {
+  .container {
+    width: 1300px;
+  }
+}
+
 .mt20 {
   margin-top: 20px;
 }
@@ -213,6 +219,24 @@ img {
 .main-icons {
   font-size: 100px;
   padding: 0;
+}
+
+/* support section */
+.support {
+  padding: 20px 1px 20px 1px;
+  position: relative;
+  transition: all 0.4s ease-in;
+  border-radius: 5px;
+}
+
+.support-brick {
+  padding: 10px 1px 10px 1px;
+  margin-top: 20px;
+  background-color: #b62121;
+  border: 1px black solid;
+  text-align: center;
+  min-height: 110px;
+  border-radius: 50px;
 }
 
 /* about section */
